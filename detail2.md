@@ -1,3 +1,7 @@
+---
+author: idiaminx
+---
+
 <!DOCTYPE HTML>
 <!--
 	Radius by TEMPLATED
@@ -68,11 +72,11 @@ al alojarce en los capilares del cerebro. De repente es por eso que se ve tanto 
 						<p>Te invito a hacer como yo y volverte vegetariano. Y en el caso de los poderosos ganaderos que sean procesados por asesinato en primer grado
 y que se les quite y se reparta la popular toda la plata para empezar a intensificar la agricultura intensiva en el paìs. Otra cosa que
 hiciera el frente serìa traicionar a Artigas.</p>
-						<p><center>.......... :IDi Amin: ..........</center></p>
+						<p><center>[.......... :IDi Amin: ..........](https://idiaminx.github.io)</center></p>
 					</div>
 				</div>
-				<a href="detail1.html" class="nav previous"><span class="fa fa-chevron-left"></span></a>
-				<a href="detail2.html" class="nav next"><span class="fa fa-chevron-right"></span></a>
+				<a href="detail1.md" class="nav previous"><span class="fa fa-chevron-left"></span></a>
+				<a href="detail2.md" class="nav next"><span class="fa fa-chevron-right"></span></a>
 			</div>
 
 		<!-- Footer -->
