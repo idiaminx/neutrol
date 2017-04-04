@@ -75,8 +75,8 @@ hiciera el frente serìa traicionar a Artigas.</p>
 						<p><center>[.......... :IDi Amin: ..........](https://idiaminx.github.io)</center></p>
 					</div>
 				</div>
-				<a href="detail1.md" class="nav previous"><span class="fa fa-chevron-left"></span></a>
-				<a href="detail2.md" class="nav next"><span class="fa fa-chevron-right"></span></a>
+				<a href="/neutrol/detail1.md" class="nav previous"><span class="fa fa-chevron-left"></span></a>
+				<a href="/neutrol/detail2.md" class="nav next"><span class="fa fa-chevron-right"></span></a>
 			</div>
 
 		<!-- Footer -->

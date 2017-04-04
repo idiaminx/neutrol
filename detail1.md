@@ -45,7 +45,7 @@ author: idiaminx
 					</div>
 				</div>
 				<!--<a href="detail1.html" class="nav previous"><span class="fa fa-chevron-left"></span></a>-->
-				<a href="detail2.md" class="nav next"><span class="fa fa-chevron-right"></span></a>
+				<a href="/neutrol/detail2.md" class="nav next"><span class="fa fa-chevron-right"></span></a>
 			</div>
 
 		<!-- Footer -->
