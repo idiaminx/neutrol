@@ -22,6 +22,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://idiaminx.github.io/neutrol" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  idiaminx
+instagram_username: neutroltk
 
 # Build settings
 markdown: kramdown
