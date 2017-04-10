@@ -1,3 +1,50 @@
-<body style="background:url(images/pic-page3.jpg) no-repeat;" width="100%">
-	{% include video-candombe.html %}
+<!DOCTYPE HTML>
+<head>
+	{% include head0.html %}
+</head>
+<body>
+	
+	<!--   start header1   -->
+		{% include header1.html %}
+	<!--   end header1   -->
+
+
+	<!--   start video   -->
+		<div id="preview">
+				
+				<div class="inner">
+
+					<!--<div class="image fit">
+						<img src="favicon.ico" width="60" style="margin-top:60px;padding-bottom:-10px;">
+					</div>
+					<div class="header">
+						<span style="color:#D616F5;font-size: 10pt; font-weight: bold;padding-bottom:40px;">PERÚ - URUGUAY<br />ÚLTIMO PARTIDO OFICIAL DE LA SELECCIÓN </span></center>
+					</div>-->
+					
+					<div class="content">					
+					
+						{% include video-peru-uruguay.html %}	
+
+					</div>
+					
+	
+
+				</div>
+				
+				<!--<a href="detail2.html" class="nav previous big alt"><span class="fa fa-chevron-left"></span></a>-->
+		</div>
+	<!--   end video   -->
+
+
+	<!--    start footer0   -->
+		{% include footer0.html %}
+	<!--    end footer0    -->
+
+
+	<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
 </body>
