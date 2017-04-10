@@ -18,6 +18,47 @@
 		vertical-align: baseline;
 	}
 
+	center {
+    		display: block;
+    		text-align: -webkit-center;
+	}
+
+	.eText {
+    		text-align: justify;
+    		padding: 10px;
+	}
+
+	td, body {
+    		font-family: verdana,arial,helvetica;
+    		font-size: 8pt;
+    		color: #000;
+	}
+
+	td, th {
+    		display: table-cell;
+    		vertical-align: inherit;
+	}
+
+	table .eBlock {
+    		white-space: normal;
+    		line-height: normal;
+    		font-weight: normal;
+    		font-size: medium;
+    		font-style: normal;
+    		color: -internal-quirk-inherit;
+    		text-align: start;
+    		font-variant: normal normal;
+	}
+
+	table .eBlock{
+    		display: table;
+    		border-collapse: separate;
+    		border-spacing: 2px;
+    		border-color: grey;
+	}
+
+	
+
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
@@ -260,7 +301,7 @@
 	}
 
 	a {
-		color: #2ebdeb;
+		color: #5E3232;
 	}
 
 	strong, b {
@@ -359,7 +400,7 @@
 		button.alt,
 		.button.alt {
 			background: #FFF;
-			color: #2ebdeb;
+			color: #5E3232;
 		}
 
 		input[type="submit"].fit,
@@ -602,8 +643,8 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #2ebdeb;
-			box-shadow: 0 0 0 1px #2ebdeb;
+			border-color: #5E3232;
+			box-shadow: 0 0 0 1px #5E3232;
 		}
 
 	.select-wrapper:before {
@@ -623,15 +664,15 @@
 
 	input[type="checkbox"]:checked + label:before,
 	input[type="radio"]:checked + label:before {
-		background-color: #2ebdeb;
-		border-color: #2ebdeb;
+		background-color: #5E3232;
+		border-color: #5E3232;
 		color: #ffffff;
 	}
 
 	input[type="checkbox"]:focus + label:before,
 	input[type="radio"]:focus + label:before {
-		border-color: #2ebdeb;
-		box-shadow: 0 0 0 1px #2ebdeb;
+		border-color: #5E3232;
+		box-shadow: 0 0 0 1px #5E3232;
 	}
 
 	::-webkit-input-placeholder {
@@ -1035,7 +1076,7 @@
 
 			#preview .content header h2 {
 				font-size: 2.5em;
-				color: #2ebdeb;
+				color: #5E3232;
 			}
 
 		@media screen and (max-width: 1680px) {
@@ -1242,7 +1283,7 @@
 			display: -ms-flexbox;
 			-ms-flex-align: center;
 			-ms-flex-pack: center;
-			background: #2ebdeb;
+			background: #5E3232;
 			border-radius: 100%;
 			width: 35em;
 			height: 35em;
@@ -1412,7 +1453,7 @@
 			display: inline-block;
 			text-decoration: none;
 			border-radius: 50% 50% 0 0;
-			background: #2ebdeb;
+			background: #5E3232;
 			width: 3em;
 			height: 3em;
 			margin-bottom: -1.75em;
@@ -1443,7 +1484,7 @@
 			-ms-flex-pack: center;
 			position: relative;
 			z-index: 10003;
-			background: #2ebdeb;
+			background: #5E3232;
 			padding: 2em;
 			height: 20em;
 		}
