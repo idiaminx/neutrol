@@ -3,23 +3,37 @@
 			<div id="preview" class="vertical">
 				
 				<div class="inner">
+
+					
 					
 					
 					<div class="image fit">
+						
 						<img src="images/pic04.jpg" alt="" />
 						<img src="images/lun.png" alt="" />
 					</div>
 					
 					
 					<div class="content">
-
+						
+						Posted by {{ page.author }}{% if page.comments %} • <a href="https://idiaminx.github.io/neutrol{{ page.url }}#disqus_thread">0 Comments</a>{% endif %}
 						{{ content }}
 
+						<!--   start disqus   -->
+							{% include disqus.html %}
+							<script id="dsq-count-scr" src="//neutrol.disqus.com/count.js" async=""></script>
+						<!--   end disqus   -->
+
+
 					</div>
+
+				
 
 				</div>
 				<a href="detail1.html" class="nav previous"><span class="fa fa-chevron-left"></span></a>
 				<a href="detail4.html" class="nav next"><span class="fa fa-chevron-right"></span></a>
+
+				
 
 			</div>
 						

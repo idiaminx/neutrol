@@ -1,5 +1,6 @@
 ---
 layout: detail2
+comments: true
 title: "MEJOREMOS LA ALIMENTACIÓN PARA QUE NOS VAYA MEJOR"
 description: "El arreglo o conjunto de elemantos objeto de nuestra iteraciòn son los ganaderos. Yo he visto atrocidades increìbles cuando van a carnear
 jóvenes, muchachos y muchachas. Y sus madres, las màs solidarias madres que hay en todo el cosmos pues donan la leche y la comparten 
