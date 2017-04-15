@@ -18,6 +18,47 @@
 		vertical-align: baseline;
 	}
 
+	center {
+    		display: block;
+    		text-align: -webkit-center;
+	}
+
+	.eText {
+    		text-align: justify;
+    		padding: 10px;
+	}
+
+	td, body {
+    		font-family: verdana,arial,helvetica;
+    		font-size: 8pt;
+    		color: #000;
+	}
+
+	td, th {
+    		display: table-cell;
+    		vertical-align: inherit;
+	}
+
+	table .eBlock {
+    		white-space: normal;
+    		line-height: normal;
+    		font-weight: normal;
+    		font-size: medium;
+    		font-style: normal;
+    		color: -internal-quirk-inherit;
+    		text-align: start;
+    		font-variant: normal normal;
+	}
+
+	table .eBlock{
+    		display: table;
+    		border-collapse: separate;
+    		border-spacing: 2px;
+    		border-color: grey;
+	}
+
+	
+
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}

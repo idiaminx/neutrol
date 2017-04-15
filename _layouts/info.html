@@ -1,0 +1,105 @@
+<html>
+	{% include head1.html %}
+	<body>
+
+		<!--   start header1   -->
+			{% include header1.html %}
+		<!--   end header1   -->
+
+
+		<!--   start main   -->
+		<div id="preview" class="vertical">
+
+				<div class="inner">
+					<div class="image fit">
+
+
+						<!--   start mpoll   -->
+
+							{% include mpoll.html %}
+
+						<!--   end mpoll   -->
+						<br><br>
+						<div class="box">
+								<header>
+									<h2>KODI</h2>
+								</header>
+								<p>Los complementos para KODI suelen funcionar por varios meses, algunos que son bien mantenidos por los creadores, los canales duran años.</p>
+						</div>
+						
+						<!--   start kong   -->
+							{% include kong.html %}
+						<!--   end kong   -->
+						<br>
+
+
+						<!--   start kong   -->
+							{% include sporttv.html %}
+						<!--   end kong   -->
+						<br>
+
+
+						<!--   start kong   -->
+							{% include match.html %}
+						<!--   end kong   -->
+
+					</div>
+					
+					<div class="content">
+						<div class="box">
+							Posted by {{ page.author }}{% if page.comments %} • <a href="https://idiaminx.github.io/neutrol{{ page.url }}#disqus_thread">0 Comments</a>{% endif %}
+							{{ content }}
+							
+						</div>
+						<div id="preview" class="vertical">
+						<div class="inner">
+							<div class="image fit">
+								{% include furious.html %}
+							</div>
+						</div>
+						</div>
+						<div class="box">
+								<header>
+									<h2>KODI</h2>
+								</header>
+								<p>Pero fundamentalmente lo que nos interesa es los canales de deportes para mirar las eliminatorias sudamericanas en los canales arriba mencionados.</p>
+						</div>
+						<div class="inner">
+							<div class="image fit">
+								{% include beinhd.html %}
+							</div>
+						</div><br>
+						<div class="box">
+								<header>
+									<h2>KODI</h2>
+								</header>
+								<p>Sport TV (en portugués), beIN HD (en árabe) y Match Fútbol (en ruso) que junto a los Arenasport (en yugoeslavo) son los canales que suelen pasar los partidos de las eliminatorias en directo (desde 11:00 PM hasta 4:00 PM CET)</p>
+						</div><br><br><br>
+						<!--   start disqus   -->
+							{% include disqus.html %}
+							<script id="dsq-count-scr" src="//neutrol.disqus.com/count.js" async=""></script>
+						<!--   end disqus   -->
+					</div>
+				
+				</div>
+				<a href="mutistas.html" class="nav previous"><span class="fa fa-chevron-left"></span></a>
+				
+		</div>
+		<!--   end main   -->
+
+
+		<!--   start footer0   -->
+			{% include footer0.html %}
+		<!--   end footer0   -->
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+
+	</body>
+</html>
+		

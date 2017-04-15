@@ -32,11 +32,16 @@
 								<p>En Uruguay viven más de 50 millones de mutistas si jugaran al fútbol pasaríamos a ser una potencia
 									a nivel mundial. Se entiende que necesitarían estrenarse para pararse en los dos básicos primero que nada.
 									Nosotros los podríamos ayudar con el consentimiento del resto del colectivo "mutistas" como parte de la reconciliación.</p>
-						</div>
+						</div><br><br>
+						<!--   start disqus   -->
+							{% include disqus.html %}
+							<script id="dsq-count-scr" src="//neutrol.disqus.com/count.js" async=""></script>
+						<!--   end disqus   -->
 						
 					</div>
 					<div class="content">
 						<div class="box">
+							Posted by {{ page.author }}{% if page.comments %} • <a href="https://idiaminx.github.io/neutrol{{ page.url }}#disqus_thread">0 Comments</a>{% endif %}
 							{{ content }}
 							
 						</div>
@@ -48,11 +53,13 @@
 						</div>
 						</div>
 						
+						
 					</div>
 					
 					
 				</div>
 				<a href="detail4.html" class="nav previous"><span class="fa fa-chevron-left"></span></a>
+				<a href="info.html" class="nav next"><span class="fa fa-chevron-right"></span></a>
 			</div>
 		<!--   end main   -->
 
