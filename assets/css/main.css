@@ -180,10 +180,10 @@
 
 		}
 
-	a {
+	/*a {
 		text-decoration: underline;
 		outline: 0;
-	}
+	}*/
 
 		a:hover {
 			text-decoration: none;

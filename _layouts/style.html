@@ -1,0 +1,241 @@
+<html>
+	{% include head0.html %}
+	<style>
+
+	.list-group-item:first-child {
+    		border-top-right-radius: 4px;
+    		border-top-left-radius: 4px;
+	}
+
+	.list-group-item {
+    		position: relative;
+    		display: block;
+    		padding: 10px 15px;
+    		margin-bottom: -1px;
+    		background-color: #fff;
+    		border: 1px solid #ddd;
+	}
+	
+	.list-group-item a:hover {
+		background-color: #ddd;
+	}
+	
+	*:before, *:after {
+    		-webkit-box-sizing: border-box;
+    		-moz-box-sizing: border-box;
+   		box-sizing: border-box;
+	}
+
+	*:before, *:after {
+    		-webkit-box-sizing: border-box;
+    		-moz-box-sizing: border-box;
+    		box-sizing: border-box;
+	}
+
+	html {
+    		font-family: sans-serif;
+    		-ms-text-size-adjust: 100%;
+    		-webkit-text-size-adjust: 100%;
+	}
+
+	html {
+    		font-size: 14px;
+    		-webkit-tap-highlight-color: rgba(0,0,0,0);
+	}
+
+	body {
+    		/*font-family: proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
+    		font-size: 10px;
+    		line-height: 1.42857143;
+    		color: #333;
+    		background-color: #fff;
+	}
+
+	a:-webkit-any-link {
+    		color: -webkit-link;
+    		cursor: auto;
+    		text-decoration: none;
+	}
+
+
+	* {
+    		-webkit-box-sizing: border-box;
+    		-moz-box-sizing: border-box;
+    		box-sizing: border-box;
+	}
+
+	a {
+    		background-color: transparent;
+	}
+
+	a {
+    		color: #5e3232;
+    		text-decoration: none;
+	}
+
+	.list-group-item {
+    		position: relative;
+    		display: block;
+    		padding: 10px 15px;
+    		margin-bottom: -1px;
+    		background-color: #fff;
+    		border: 1px solid #ddd;
+	}
+
+	.list-group-item a:hover {
+    		position: relative;
+    		display: block;
+    		padding: 10px 15px;
+    		margin-bottom: -1px;
+    		background-color: #ddd;
+    		border: 1px solid #ddd;
+	}
+
+	a.list-group-item, button.list-group-item {
+    		color: #555;
+	}
+
+	list-group-item, button.list-group-item a:hover {
+		background-color: #ddd;
+	}
+
+	.list-group {
+    		margin-bottom: 20px;
+    		padding-left: 0;
+	}
+
+	* {
+    		-webkit-box-sizing: border-box;
+    		-moz-box-sizing: border-box;
+    		box-sizing: border-box;
+	}
+
+	div {
+    		display: block;
+	}
+
+	body {
+    		/*font-family: proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
+    		font-size: 14px;
+    		line-height: 1.42857143;
+    		color: #333;
+    		background-color: #fff;
+	}
+
+	html {
+    		font-size: 10px;
+    		-webkit-tap-highlight-color: rgba(0,0,0,0);
+	}
+
+	html {
+    		font-family: sans-serif;
+    		-ms-text-size-adjust: 100%;
+    		-webkit-text-size-adjust: 100%;
+	}
+
+	*:before, *:after {
+    		-webkit-box-sizing: border-box;
+    		-moz-box-sizing: border-box;
+    		box-sizing: border-box;
+	}
+
+	a:-webkit-any-link:active {
+    		color: -webkit-activelink;
+	}
+
+	
+	</style>
+
+	<body>
+		<!--   start header1   -->
+			{% include header1.html %}
+		<!--   end header1   -->
+
+
+		<!--   start main   -->
+	
+			<div id="preview" class="vertical">
+
+				<div class="inner">
+					<div class="image fit">
+						
+                                           <br> <br>
+						
+						<!--<div class="content">-->
+							<div class="box">
+								<header>
+									<h2>El URRETA</h2>
+								</header>
+								<p>Urreta-Vizcaya mostró que puede ser alternativa en la selección. No se confunda maestro y apuntelo bien, al Urreta le anularon
+									un gol legítimo, no le pudieron quitar la pelota nunca, solo una vez su pase no llegó a destino y junto al Pato Sanchez
+									y a Cavanini son los <strong>ÚNICOS</strong> que se atreven a driblear y les sale!!! Obviamente se pierde el partido con
+									Argentina y Uruguay de rescatar un punto ante Perú. Porque no prueba con Urreta de entrada ante Paraguay</p>
+							</div>
+						<!--</div>-->
+						<br><br>
+						<div class="box">
+								<header>
+									<h2></h2>
+								</header>
+								<p></p>
+						</div><br><br><br>
+						<!--   start disqus   -->
+							{% include disqus.html %}
+							<script id="dsq-count-scr" src="//neutrol.disqus.com/count.js" async=""></script>
+						<!--   end disqus   -->
+						
+					</div>
+					<div class="content">
+						<div class="box">
+							Posted by {{ page.author }}{% if page.comments %} • <a href="https://idiaminx.github.io/neutrol{{ page.url }}#disqus_thread">0 Comments</a>{% endif %}
+							{{ content }}
+							
+							<span style="margin-bottom:0px;" class="fa-stack fa-lg" >
+  									<i class="fa fa-square-o fa-stack-2x"></i>
+  									<i class="fa fa-cog fa-stack-1x"></i>
+							</span>
+							<i class="fa fa-cog fa-spin fa-lg fa-fw" style="margin-bottom:-35px;"></i>
+							<span class="sr-only">Loading...</span>
+							<div class="list-group">
+  								<a class="list-group-item" href="#"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp; Home</a>
+								<a class="list-group-item" href="/posiciones.html"><i class="fa fa-list fa-fw" aria-hidden="true"></i>&nbsp; Posiciones</a>
+  								<a class="list-group-item" href="#"><i class="fa fa-book fa-fw" aria-hidden="true"></i>&nbsp; Library</a>
+  								<a class="list-group-item" href="#"><i class="fa fa-pencil fa-fw" aria-hidden="true"></i>&nbsp; Applications</a>
+  								<a class="list-group-item" href="#"><i class="fa fa-cog fa-fw" aria-hidden="true"></i>&nbsp; Settings</a>
+							</div>
+							
+						</div>
+						<div id="preview" class="vertical">
+						<div class="inner">
+							<div class="image fit">
+								
+							</div>
+						</div>
+						</div>
+						
+						
+					</div>
+					
+					
+				</div>
+				<a href="box.html" class="nav previous"><span class="fa fa-chevron-left"></span></a>
+			</div>
+		<!--   end main   -->
+
+			
+
+		<!--   start footer0   -->
+			{% include footer0.html %}
+		<!--   end footer0   -->
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+
+	</body>
+</html>
+		
