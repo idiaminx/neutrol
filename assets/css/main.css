@@ -725,10 +725,10 @@
 		position: relative;
 	}
 
-		.image img {
+		/*.image img {
 			border-radius: 4px;
 			display: block;
-		}
+		}*/
 
 		.image.left, .image.right {
 			max-width: 40%;
@@ -756,9 +756,9 @@
 			width: 100%;
 		}
 
-			.image.fit img {
+			/*.image.fit img {
 				width: 100%;
-			}
+			}*/
 
 		.image.main {
 			display: block;
@@ -1144,7 +1144,7 @@
 
 /* Table */
 
-	.table-wrapper {
+	/*.table-wrapper {
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;
 	}
@@ -1227,7 +1227,7 @@
 
 	table.alt tbody tr td {
 		border-color: rgba(144, 144, 144, 0.25);
-	}
+	} 
 
 /* Header */
 

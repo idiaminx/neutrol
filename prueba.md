@@ -1,10 +1,9 @@
 ---
 layout: style
 comments: true
-title: PRUEBA DE ALGUNOS ELEMENTOS DE FONTAWESOME CSS
-description: "Prueba de algunos iconos que ofrece fontawesome css"
+title: "ELIMINATORIAS SUDAMERICANAS RUSIA 2018"
+description: "Tabla de posiciones, resultados y próxima fecha de las eliminatorias sudamericanas al mundial de Rusia 2018"
 author: idiaminx
 ---
 
-### fa-square-o fa-stack
-
+### ELIMINATORIAS SUDAMERICANAS RUSIA 2018

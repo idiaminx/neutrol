@@ -42,4 +42,4 @@ Te invito a hacer como yo y volverte vegetariano. Y en el caso de los poderosos 
 y que se les quite y se reparta la popular toda la plata para empezar a intensificar la agricultura intensiva en el paìs. Otra cosa que
 hiciera el frente serìa traicionar a Artigas.
 
-<center>.......... :IDi Amin: ..........</center>
+

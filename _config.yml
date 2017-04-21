@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Neutrol
+title: "EL FÚTBOL Y LOS VESTIGIOS DE LOS MUNDIALES - NEUTROL.TK"
 email: idi.aminx@gmail.com
-description: "El fútbol es el viaje del fútbol en el cosmos algo que existe y
+description: "El viaje del fútbol en el cosmos existe y
 existirá siempre, al costado del camino del fútbol existen cuestiones en las que tenémos que
-mejorar, como por ejemplo la nutrición, no ser canibáles y dejar de comernos al prójimo en dos panes."
+mejorar, como por ejemplo la nutrición, no ser canibáles y dejar de comernos al prójimo en dos panes para que a Uruguay le vaya mejor en el fútbol y estar en el mundial."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://neutrol.tk" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
